@@ -1,0 +1,1920 @@
+[
+  {
+    "doc_id": "KB-00001",
+    "doc_type": "resolution_guide",
+    "category": "Delivery Delay",
+    "content": "For delivery delays, immediately contact logistics partner to track shipment location. Provide customer with updated ETA and offer 10% discount on next order if delay exceeds 3 days. Escalate to operations manager if delay is over 7 days.",
+    "last_updated": "2025-04-16"
+  },
+  {
+    "doc_id": "KB-00002",
+    "doc_type": "resolution_guide",
+    "category": "Delivery Delay",
+    "content": "Standard protocol for late deliveries: 1) Verify current shipment status, 2) Contact carrier for explanation, 3) Inform customer within 2 hours, 4) Offer expedited shipping on replacement if needed, 5) Apply service credit of $50-200 based on order value.",
+    "last_updated": "2025-07-04"
+  },
+  {
+    "doc_id": "KB-00003",
+    "doc_type": "resolution_guide",
+    "category": "Delivery Delay",
+    "content": "Delivery delay resolution process: Check warehouse dispatch logs, verify carrier pickup time, identify bottleneck (warehouse/transit/last-mile), communicate transparently with customer, offer compensation based on delay severity and customer tier.",
+    "last_updated": "2025-03-30"
+  },
+  {
+    "doc_id": "KB-00004",
+    "doc_type": "resolution_guide",
+    "category": "Damaged Goods",
+    "content": "Damaged goods protocol: Request photo evidence from customer, file claim with shipping carrier within 24 hours, arrange immediate replacement shipment, offer 20% discount or full refund. Document damage patterns for supplier feedback.",
+    "last_updated": "2025-07-13"
+  },
+  {
+    "doc_id": "KB-00005",
+    "doc_type": "resolution_guide",
+    "category": "Damaged Goods",
+    "content": "For damaged shipments: 1) Assess damage extent via photos, 2) Approve immediate replacement for orders >$500, 3) Investigate packaging quality with supplier, 4) Update packaging requirements if pattern detected, 5) Compensate customer with credit or refund.",
+    "last_updated": "2025-08-20"
+  },
+  {
+    "doc_id": "KB-00006",
+    "doc_type": "resolution_guide",
+    "category": "Damaged Goods",
+    "content": "Handle damaged goods by: Collecting visual evidence, determining if damage occurred in transit or at origin, coordinating with QA team for supplier evaluation, processing refund/replacement within 48 hours, implementing corrective measures.",
+    "last_updated": "2025-09-08"
+  },
+  {
+    "doc_id": "KB-00007",
+    "doc_type": "resolution_guide",
+    "category": "Pricing Error",
+    "content": "Pricing discrepancy resolution: Verify contract pricing in system, compare with invoice, issue credit memo if overcharged, update pricing master data, notify customer within 24 hours with corrected invoice and apology.",
+    "last_updated": "2025-08-04"
+  },
+  {
+    "doc_id": "KB-00008",
+    "doc_type": "resolution_guide",
+    "category": "Pricing Error",
+    "content": "For billing errors: 1) Pull original quote and contract terms, 2) Identify source of error (manual entry/system/contract update), 3) Issue immediate credit adjustment, 4) Send corrected invoice, 5) Flag account for audit if recurring issue.",
+    "last_updated": "2025-07-15"
+  },
+  {
+    "doc_id": "KB-00009",
+    "doc_type": "resolution_guide",
+    "category": "Pricing Error",
+    "content": "Pricing error protocol: Validate customer's claimed price against agreement, check for promotional pricing or volume discounts, correct invoice in billing system, process refund to original payment method, document error for process improvement.",
+    "last_updated": "2025-06-14"
+  },
+  {
+    "doc_id": "KB-00010",
+    "doc_type": "resolution_guide",
+    "category": "Missing Items",
+    "content": "Missing items procedure: Cross-check packing list with warehouse pick ticket, verify actual shipment weight, ship missing items via express at no charge, apply $25-100 service credit, investigate warehouse picking accuracy.",
+    "last_updated": "2025-03-21"
+  },
+  {
+    "doc_id": "KB-00011",
+    "doc_type": "resolution_guide",
+    "category": "Missing Items",
+    "content": "For incomplete orders: 1) Confirm missing items from packing documentation, 2) Expedite shipment of missing items within 24 hours, 3) Waive shipping charges, 4) Offer 15% discount on affected items, 5) Review warehouse processes if pattern emerges.",
+    "last_updated": "2025-04-06"
+  },
+  {
+    "doc_id": "KB-00012",
+    "doc_type": "resolution_guide",
+    "category": "Missing Items",
+    "content": "Resolution for short shipments: Verify inventory allocation, check for picking errors, immediately dispatch missing quantity, compensate for inconvenience with credit, conduct root cause analysis with warehouse team.",
+    "last_updated": "2025-06-24"
+  },
+  {
+    "doc_id": "KB-00013",
+    "doc_type": "resolution_guide",
+    "category": "Poor Communication",
+    "content": "Communication complaint resolution: Assign dedicated account manager, provide direct contact details, commit to 4-hour response time SLA, send daily updates until issue resolved, offer service credit for inconvenience.",
+    "last_updated": "2025-01-04"
+  },
+  {
+    "doc_id": "KB-00014",
+    "doc_type": "resolution_guide",
+    "category": "Poor Communication",
+    "content": "For communication failures: 1) Acknowledge complaint immediately, 2) Escalate to customer success manager, 3) Establish direct communication channel, 4) Provide hourly updates on critical issues, 5) Implement communication improvement plan.",
+    "last_updated": "2025-10-04"
+  },
+  {
+    "doc_id": "KB-00015",
+    "doc_type": "resolution_guide",
+    "category": "Poor Communication",
+    "content": "Handle communication issues by: Apologizing for delay, assigning senior support specialist, providing multiple contact channels (phone/email/chat), setting clear expectations for response times, following up proactively.",
+    "last_updated": "2025-02-23"
+  },
+  {
+    "doc_id": "KB-00016",
+    "doc_type": "resolution_guide",
+    "category": "Quality Issues",
+    "content": "Quality complaint protocol: Request detailed description and photos, arrange immediate replacement, initiate supplier quality audit, offer full refund plus 25% credit, document issue for supplier scorecard review.",
+    "last_updated": "2025-02-01"
+  },
+  {
+    "doc_id": "KB-00017",
+    "doc_type": "resolution_guide",
+    "category": "Quality Issues",
+    "content": "For quality concerns: 1) Collect evidence (photos, samples if possible), 2) Issue immediate replacement shipment, 3) Notify supplier quality team, 4) Conduct root cause analysis, 5) Implement corrective action with supplier, 6) Compensate customer generously.",
+    "last_updated": "2025-04-24"
+  },
+  {
+    "doc_id": "KB-00018",
+    "doc_type": "resolution_guide",
+    "category": "Quality Issues",
+    "content": "Quality issue resolution: Validate complaint with quality team, determine if isolated incident or batch problem, recall affected inventory if needed, provide premium replacement, strengthen quality checks with supplier.",
+    "last_updated": "2024-11-08"
+  },
+  {
+    "doc_id": "KB-00019",
+    "doc_type": "resolution_guide",
+    "category": "Documentation Error",
+    "content": "Documentation error handling: Identify missing/incorrect documents, coordinate with compliance team to generate correct paperwork, send via express courier if urgent, waive any delay-related charges, update document checklist.",
+    "last_updated": "2025-09-05"
+  },
+  {
+    "doc_id": "KB-00020",
+    "doc_type": "resolution_guide",
+    "category": "Documentation Error",
+    "content": "For paperwork issues: 1) Determine which documents are incorrect, 2) Generate corrected versions within 4 hours, 3) Send digitally and via courier, 4) Coordinate with customs broker if needed, 5) Prevent recurrence through process update.",
+    "last_updated": "2025-05-23"
+  },
+  {
+    "doc_id": "KB-00021",
+    "doc_type": "resolution_guide",
+    "category": "Documentation Error",
+    "content": "Missing documentation protocol: Verify required certificates for product/region, obtain from supplier or quality team, provide digital copies immediately, mail originals overnight, add to shipment checklist for future orders.",
+    "last_updated": "2025-01-26"
+  },
+  {
+    "doc_id": "KB-00022",
+    "doc_type": "resolution_guide",
+    "category": "Service Complaint",
+    "content": "Service complaint resolution: Apologize sincerely, investigate incident with involved staff, offer service recovery (discount/credit), assign different representative for future interactions, implement coaching for staff member.",
+    "last_updated": "2025-03-30"
+  },
+  {
+    "doc_id": "KB-00023",
+    "doc_type": "resolution_guide",
+    "category": "Service Complaint",
+    "content": "For unprofessional behavior: 1) Take complaint seriously and apologize, 2) Investigate with employee and supervisor, 3) Provide immediate service recovery ($50-150 credit), 4) Ensure different staff handles account, 5) Conduct training if needed.",
+    "last_updated": "2025-03-03"
+  },
+  {
+    "doc_id": "KB-00024",
+    "doc_type": "resolution_guide",
+    "category": "Service Complaint",
+    "content": "Handle service issues by: Acknowledging customer's negative experience, investigating circumstances, taking corrective action with employee, offering meaningful compensation, assigning senior team member to rebuild relationship.",
+    "last_updated": "2024-11-17"
+  },
+  {
+    "doc_id": "KB-00025",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-08-30"
+  },
+  {
+    "doc_id": "KB-00026",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-08-22"
+  },
+  {
+    "doc_id": "KB-00027",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-09-25"
+  },
+  {
+    "doc_id": "KB-00028",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-08-01"
+  },
+  {
+    "doc_id": "KB-00029",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-07-03"
+  },
+  {
+    "doc_id": "KB-00030",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-07-30"
+  },
+  {
+    "doc_id": "KB-00031",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-08-15"
+  },
+  {
+    "doc_id": "KB-00032",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-10-27"
+  },
+  {
+    "doc_id": "KB-00033",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-05-20"
+  },
+  {
+    "doc_id": "KB-00034",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Standard Operating Procedure: All customer complaints must be acknowledged within 2 hours of receipt. Classification must be completed within 4 hours. Resolution must be initiated within 24 hours for non-critical issues and within 4 hours for critical issues.",
+    "last_updated": "2025-05-30"
+  },
+  {
+    "doc_id": "KB-00035",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00036",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-05-16"
+  },
+  {
+    "doc_id": "KB-00037",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-10-19"
+  },
+  {
+    "doc_id": "KB-00038",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-05-09"
+  },
+  {
+    "doc_id": "KB-00039",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-05-14"
+  },
+  {
+    "doc_id": "KB-00040",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-09-01"
+  },
+  {
+    "doc_id": "KB-00041",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-08-29"
+  },
+  {
+    "doc_id": "KB-00042",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-06-13"
+  },
+  {
+    "doc_id": "KB-00043",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-07-26"
+  },
+  {
+    "doc_id": "KB-00044",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Escalation Policy: Complaints marked as 'critical' priority must be escalated to operations manager immediately. High priority complaints require supervisor notification within 1 hour. All complaints unresolved after 48 hours must be escalated.",
+    "last_updated": "2025-08-14"
+  },
+  {
+    "doc_id": "KB-00045",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-05-22"
+  },
+  {
+    "doc_id": "KB-00046",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-05-06"
+  },
+  {
+    "doc_id": "KB-00047",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-08-01"
+  },
+  {
+    "doc_id": "KB-00048",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-05-10"
+  },
+  {
+    "doc_id": "KB-00049",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-10-01"
+  },
+  {
+    "doc_id": "KB-00050",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-06-18"
+  },
+  {
+    "doc_id": "KB-00051",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00052",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-07-11"
+  },
+  {
+    "doc_id": "KB-00053",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-07-25"
+  },
+  {
+    "doc_id": "KB-00054",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Quality Assurance Protocol: All perishable goods must be inspected at warehouse before shipment. Temperature logs must be maintained throughout transit. Supplier quality scores are updated monthly based on complaint patterns.",
+    "last_updated": "2025-10-30"
+  },
+  {
+    "doc_id": "KB-00055",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-07-24"
+  },
+  {
+    "doc_id": "KB-00056",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-08-28"
+  },
+  {
+    "doc_id": "KB-00057",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-08-16"
+  },
+  {
+    "doc_id": "KB-00058",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-10-09"
+  },
+  {
+    "doc_id": "KB-00059",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00060",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-08-17"
+  },
+  {
+    "doc_id": "KB-00061",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-09-09"
+  },
+  {
+    "doc_id": "KB-00062",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-09-21"
+  },
+  {
+    "doc_id": "KB-00063",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-07-12"
+  },
+  {
+    "doc_id": "KB-00064",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Customer Communication Standards: All responses must be professional, empathetic, and solution-focused. Provide specific timelines for resolution. Follow up within 24 hours of resolution to ensure customer satisfaction.",
+    "last_updated": "2025-05-24"
+  },
+  {
+    "doc_id": "KB-00065",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "doc_id": "KB-00066",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-05-21"
+  },
+  {
+    "doc_id": "KB-00067",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-07-20"
+  },
+  {
+    "doc_id": "KB-00068",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00069",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-08-23"
+  },
+  {
+    "doc_id": "KB-00070",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-10-12"
+  },
+  {
+    "doc_id": "KB-00071",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-06-29"
+  },
+  {
+    "doc_id": "KB-00072",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-07-04"
+  },
+  {
+    "doc_id": "KB-00073",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-07-19"
+  },
+  {
+    "doc_id": "KB-00074",
+    "doc_type": "sop",
+    "category": "General",
+    "content": "Compensation Guidelines: Service credits range from $25-$500 based on order value and severity. Refunds must be processed within 3 business days. Discounts on future orders: 10% for minor issues, 20-30% for major issues.",
+    "last_updated": "2025-08-08"
+  },
+  {
+    "doc_id": "KB-00075",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8460 Profile: Certified organic producer in Asia. Capacity: 265 tons/month. Lead time: 6 days. Reliability rating: 4.4/5. Specialization: pears.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00076",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5224 Profile: Certified organic producer in Asia. Capacity: 255 tons/month. Lead time: 9 days. Reliability rating: 3.8/5. Specialization: lemons.",
+    "last_updated": "2025-08-20"
+  },
+  {
+    "doc_id": "KB-00077",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5907 - Asia Region: Specializes in oranges. Quality score: 98/100. Average delivery time: 4 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-15"
+  },
+  {
+    "doc_id": "KB-00078",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6421 Performance: On-time delivery rate 81%. Quality rejection rate 0.9%. Serves North America. Primary products: onions. Contract renewal: 2026-06-13.",
+    "last_updated": "2025-10-30"
+  },
+  {
+    "doc_id": "KB-00079",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12562 - North America Region: Specializes in lemons. Quality score: 79/100. Average delivery time: 3 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-08-14"
+  },
+  {
+    "doc_id": "KB-00080",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9918 Performance: On-time delivery rate 80%. Quality rejection rate 4.8%. Serves Europe. Primary products: bell peppers. Contract renewal: 2026-08-28.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00081",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9048 Profile: Certified organic producer in Asia. Capacity: 303 tons/month. Lead time: 5 days. Reliability rating: 4.1/5. Specialization: oranges.",
+    "last_updated": "2025-08-17"
+  },
+  {
+    "doc_id": "KB-00082",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11750 - Europe Region: Specializes in cantaloupe. Quality score: 77/100. Average delivery time: 8 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-14"
+  },
+  {
+    "doc_id": "KB-00083",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12432 Performance: On-time delivery rate 75%. Quality rejection rate 2.6%. Serves Asia. Primary products: blueberries. Contract renewal: 2026-06-23.",
+    "last_updated": "2025-09-13"
+  },
+  {
+    "doc_id": "KB-00084",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8467 Profile: Certified organic producer in North America. Capacity: 76 tons/month. Lead time: 3 days. Reliability rating: 4.0/5. Specialization: garlic.",
+    "last_updated": "2025-09-17"
+  },
+  {
+    "doc_id": "KB-00085",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12694 Profile: Certified organic producer in North America. Capacity: 245 tons/month. Lead time: 2 days. Reliability rating: 4.0/5. Specialization: peaches.",
+    "last_updated": "2025-10-16"
+  },
+  {
+    "doc_id": "KB-00086",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5336 Profile: Certified organic producer in North America. Capacity: 223 tons/month. Lead time: 4 days. Reliability rating: 4.8/5. Specialization: cucumbers.",
+    "last_updated": "2025-09-22"
+  },
+  {
+    "doc_id": "KB-00087",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9345 Profile: Certified organic producer in Europe. Capacity: 115 tons/month. Lead time: 3 days. Reliability rating: 4.2/5. Specialization: bell peppers.",
+    "last_updated": "2025-09-07"
+  },
+  {
+    "doc_id": "KB-00088",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12395 Performance: On-time delivery rate 85%. Quality rejection rate 2.5%. Serves Europe. Primary products: garlic. Contract renewal: 2026-08-10.",
+    "last_updated": "2025-08-22"
+  },
+  {
+    "doc_id": "KB-00089",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10215 Profile: Certified organic producer in Europe. Capacity: 68 tons/month. Lead time: 4 days. Reliability rating: 4.2/5. Specialization: fresh strawberries.",
+    "last_updated": "2025-09-07"
+  },
+  {
+    "doc_id": "KB-00090",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12333 - Europe Region: Specializes in fresh strawberries. Quality score: 93/100. Average delivery time: 7 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-18"
+  },
+  {
+    "doc_id": "KB-00091",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6668 - Europe Region: Specializes in cucumbers. Quality score: 75/100. Average delivery time: 10 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-08-26"
+  },
+  {
+    "doc_id": "KB-00092",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6479 Profile: Certified organic producer in Europe. Capacity: 218 tons/month. Lead time: 9 days. Reliability rating: 3.5/5. Specialization: tomatoes.",
+    "last_updated": "2025-09-15"
+  },
+  {
+    "doc_id": "KB-00093",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12611 Profile: Certified organic producer in Asia. Capacity: 475 tons/month. Lead time: 4 days. Reliability rating: 4.6/5. Specialization: pears.",
+    "last_updated": "2025-08-13"
+  },
+  {
+    "doc_id": "KB-00094",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9867 Performance: On-time delivery rate 95%. Quality rejection rate 3.3%. Serves North America. Primary products: organic apples. Contract renewal: 2026-09-19.",
+    "last_updated": "2025-10-05"
+  },
+  {
+    "doc_id": "KB-00095",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11566 - North America Region: Specializes in mangoes. Quality score: 85/100. Average delivery time: 2 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-10-10"
+  },
+  {
+    "doc_id": "KB-00096",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12905 - Europe Region: Specializes in tomatoes. Quality score: 66/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-17"
+  },
+  {
+    "doc_id": "KB-00097",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9021 Performance: On-time delivery rate 86%. Quality rejection rate 3.5%. Serves Europe. Primary products: cantaloupe. Contract renewal: 2026-03-14.",
+    "last_updated": "2025-09-05"
+  },
+  {
+    "doc_id": "KB-00098",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8902 Performance: On-time delivery rate 99%. Quality rejection rate 2.4%. Serves Europe. Primary products: onions. Contract renewal: 2026-07-12.",
+    "last_updated": "2025-10-21"
+  },
+  {
+    "doc_id": "KB-00099",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9205 - Europe Region: Specializes in kale. Quality score: 79/100. Average delivery time: 4 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-07"
+  },
+  {
+    "doc_id": "KB-00100",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12431 - Europe Region: Specializes in mangoes. Quality score: 74/100. Average delivery time: 4 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-08-21"
+  },
+  {
+    "doc_id": "KB-00101",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9513 - Asia Region: Specializes in fresh strawberries. Quality score: 97/100. Average delivery time: 3 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-09-17"
+  },
+  {
+    "doc_id": "KB-00102",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9796 Performance: On-time delivery rate 78%. Quality rejection rate 3.8%. Serves Asia. Primary products: pineapples. Contract renewal: 2026-03-05.",
+    "last_updated": "2025-10-27"
+  },
+  {
+    "doc_id": "KB-00103",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8409 - North America Region: Specializes in mangoes. Quality score: 85/100. Average delivery time: 9 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-05"
+  },
+  {
+    "doc_id": "KB-00104",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5640 - North America Region: Specializes in garlic. Quality score: 81/100. Average delivery time: 3 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-10"
+  },
+  {
+    "doc_id": "KB-00105",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8769 Performance: On-time delivery rate 94%. Quality rejection rate 4.2%. Serves North America. Primary products: raspberries. Contract renewal: 2026-06-22.",
+    "last_updated": "2025-10-21"
+  },
+  {
+    "doc_id": "KB-00106",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6106 - Asia Region: Specializes in bananas. Quality score: 72/100. Average delivery time: 2 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-10"
+  },
+  {
+    "doc_id": "KB-00107",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8569 - North America Region: Specializes in cherries. Quality score: 77/100. Average delivery time: 3 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-10-11"
+  },
+  {
+    "doc_id": "KB-00108",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11052 - North America Region: Specializes in kale. Quality score: 96/100. Average delivery time: 9 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-26"
+  },
+  {
+    "doc_id": "KB-00109",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5064 Performance: On-time delivery rate 90%. Quality rejection rate 3.8%. Serves Asia. Primary products: lemons. Contract renewal: 2026-04-29.",
+    "last_updated": "2025-08-31"
+  },
+  {
+    "doc_id": "KB-00110",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8982 Performance: On-time delivery rate 97%. Quality rejection rate 0.8%. Serves North America. Primary products: onions. Contract renewal: 2026-05-12.",
+    "last_updated": "2025-09-28"
+  },
+  {
+    "doc_id": "KB-00111",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8417 Profile: Certified organic producer in Europe. Capacity: 60 tons/month. Lead time: 7 days. Reliability rating: 3.7/5. Specialization: lettuce.",
+    "last_updated": "2025-09-18"
+  },
+  {
+    "doc_id": "KB-00112",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6901 Performance: On-time delivery rate 79%. Quality rejection rate 4.5%. Serves North America. Primary products: oranges. Contract renewal: 2026-07-03.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00113",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10094 - Asia Region: Specializes in mangoes. Quality score: 70/100. Average delivery time: 9 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-08-30"
+  },
+  {
+    "doc_id": "KB-00114",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6922 Performance: On-time delivery rate 86%. Quality rejection rate 4.5%. Serves Asia. Primary products: potatoes. Contract renewal: 2026-03-01.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00115",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8527 Performance: On-time delivery rate 92%. Quality rejection rate 1.5%. Serves Asia. Primary products: garlic. Contract renewal: 2026-06-01.",
+    "last_updated": "2025-08-22"
+  },
+  {
+    "doc_id": "KB-00116",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12342 Performance: On-time delivery rate 97%. Quality rejection rate 0.7%. Serves Asia. Primary products: cherries. Contract renewal: 2026-01-27.",
+    "last_updated": "2025-08-15"
+  },
+  {
+    "doc_id": "KB-00117",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11407 Profile: Certified organic producer in Asia. Capacity: 110 tons/month. Lead time: 10 days. Reliability rating: 4.8/5. Specialization: pears.",
+    "last_updated": "2025-09-25"
+  },
+  {
+    "doc_id": "KB-00118",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8616 Profile: Certified organic producer in North America. Capacity: 469 tons/month. Lead time: 4 days. Reliability rating: 3.7/5. Specialization: broccoli.",
+    "last_updated": "2025-09-09"
+  },
+  {
+    "doc_id": "KB-00119",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7009 - Europe Region: Specializes in avocados. Quality score: 83/100. Average delivery time: 10 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-08-13"
+  },
+  {
+    "doc_id": "KB-00120",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7010 Profile: Certified organic producer in Asia. Capacity: 269 tons/month. Lead time: 8 days. Reliability rating: 4.1/5. Specialization: pineapples.",
+    "last_updated": "2025-08-27"
+  },
+  {
+    "doc_id": "KB-00121",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7963 Profile: Certified organic producer in Asia. Capacity: 85 tons/month. Lead time: 2 days. Reliability rating: 3.6/5. Specialization: kale.",
+    "last_updated": "2025-10-11"
+  },
+  {
+    "doc_id": "KB-00122",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5503 Performance: On-time delivery rate 93%. Quality rejection rate 0.8%. Serves Europe. Primary products: pineapples. Contract renewal: 2026-08-25.",
+    "last_updated": "2025-09-09"
+  },
+  {
+    "doc_id": "KB-00123",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12256 Performance: On-time delivery rate 86%. Quality rejection rate 0.5%. Serves North America. Primary products: watermelons. Contract renewal: 2026-10-10.",
+    "last_updated": "2025-08-04"
+  },
+  {
+    "doc_id": "KB-00124",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8655 Performance: On-time delivery rate 95%. Quality rejection rate 2.3%. Serves North America. Primary products: bananas. Contract renewal: 2026-01-14.",
+    "last_updated": "2025-08-25"
+  },
+  {
+    "doc_id": "KB-00125",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8194 Performance: On-time delivery rate 92%. Quality rejection rate 1.8%. Serves North America. Primary products: cantaloupe. Contract renewal: 2026-05-10.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "doc_id": "KB-00126",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5191 - Asia Region: Specializes in asparagus. Quality score: 81/100. Average delivery time: 5 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-15"
+  },
+  {
+    "doc_id": "KB-00127",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10136 Performance: On-time delivery rate 99%. Quality rejection rate 3.4%. Serves North America. Primary products: blueberries. Contract renewal: 2026-09-21.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00128",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6934 Performance: On-time delivery rate 84%. Quality rejection rate 1.8%. Serves North America. Primary products: onions. Contract renewal: 2026-09-21.",
+    "last_updated": "2025-09-14"
+  },
+  {
+    "doc_id": "KB-00129",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11041 Profile: Certified organic producer in Asia. Capacity: 448 tons/month. Lead time: 10 days. Reliability rating: 4.0/5. Specialization: lettuce.",
+    "last_updated": "2025-09-08"
+  },
+  {
+    "doc_id": "KB-00130",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5671 Performance: On-time delivery rate 90%. Quality rejection rate 1.5%. Serves Asia. Primary products: fresh strawberries. Contract renewal: 2026-08-28.",
+    "last_updated": "2025-08-18"
+  },
+  {
+    "doc_id": "KB-00131",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9251 Profile: Certified organic producer in Europe. Capacity: 275 tons/month. Lead time: 9 days. Reliability rating: 4.5/5. Specialization: cherries.",
+    "last_updated": "2025-10-12"
+  },
+  {
+    "doc_id": "KB-00132",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9143 - Asia Region: Specializes in broccoli. Quality score: 94/100. Average delivery time: 4 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00133",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11115 - Asia Region: Specializes in potatoes. Quality score: 88/100. Average delivery time: 3 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-10-27"
+  },
+  {
+    "doc_id": "KB-00134",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6255 Profile: Certified organic producer in Asia. Capacity: 64 tons/month. Lead time: 7 days. Reliability rating: 4.7/5. Specialization: blueberries.",
+    "last_updated": "2025-10-26"
+  },
+  {
+    "doc_id": "KB-00135",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12283 Performance: On-time delivery rate 75%. Quality rejection rate 1.1%. Serves Europe. Primary products: bananas. Contract renewal: 2025-12-24.",
+    "last_updated": "2025-09-01"
+  },
+  {
+    "doc_id": "KB-00136",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7537 Profile: Certified organic producer in North America. Capacity: 476 tons/month. Lead time: 8 days. Reliability rating: 4.4/5. Specialization: kale.",
+    "last_updated": "2025-09-05"
+  },
+  {
+    "doc_id": "KB-00137",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8678 Profile: Certified organic producer in Asia. Capacity: 259 tons/month. Lead time: 3 days. Reliability rating: 4.1/5. Specialization: cherries.",
+    "last_updated": "2025-08-24"
+  },
+  {
+    "doc_id": "KB-00138",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12848 - North America Region: Specializes in asparagus. Quality score: 93/100. Average delivery time: 6 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-08-22"
+  },
+  {
+    "doc_id": "KB-00139",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6014 Profile: Certified organic producer in North America. Capacity: 437 tons/month. Lead time: 5 days. Reliability rating: 3.6/5. Specialization: potatoes.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00140",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12347 Profile: Certified organic producer in Asia. Capacity: 175 tons/month. Lead time: 2 days. Reliability rating: 4.7/5. Specialization: lettuce.",
+    "last_updated": "2025-10-22"
+  },
+  {
+    "doc_id": "KB-00141",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9971 Profile: Certified organic producer in Europe. Capacity: 142 tons/month. Lead time: 9 days. Reliability rating: 4.1/5. Specialization: raspberries.",
+    "last_updated": "2025-09-14"
+  },
+  {
+    "doc_id": "KB-00142",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5745 Performance: On-time delivery rate 79%. Quality rejection rate 1.3%. Serves Asia. Primary products: lettuce. Contract renewal: 2026-05-08.",
+    "last_updated": "2025-08-07"
+  },
+  {
+    "doc_id": "KB-00143",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5482 - North America Region: Specializes in avocados. Quality score: 76/100. Average delivery time: 2 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-21"
+  },
+  {
+    "doc_id": "KB-00144",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8076 Performance: On-time delivery rate 99%. Quality rejection rate 3.2%. Serves Asia. Primary products: fresh strawberries. Contract renewal: 2026-08-17.",
+    "last_updated": "2025-10-18"
+  },
+  {
+    "doc_id": "KB-00145",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5496 Performance: On-time delivery rate 90%. Quality rejection rate 0.6%. Serves Europe. Primary products: kale. Contract renewal: 2025-12-11.",
+    "last_updated": "2025-08-23"
+  },
+  {
+    "doc_id": "KB-00146",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10530 Profile: Certified organic producer in Asia. Capacity: 92 tons/month. Lead time: 6 days. Reliability rating: 4.8/5. Specialization: oranges.",
+    "last_updated": "2025-10-14"
+  },
+  {
+    "doc_id": "KB-00147",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9427 Performance: On-time delivery rate 88%. Quality rejection rate 4.8%. Serves Asia. Primary products: peaches. Contract renewal: 2025-12-02.",
+    "last_updated": "2025-08-14"
+  },
+  {
+    "doc_id": "KB-00148",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10349 Performance: On-time delivery rate 83%. Quality rejection rate 3.2%. Serves Asia. Primary products: organic apples. Contract renewal: 2026-05-30.",
+    "last_updated": "2025-08-19"
+  },
+  {
+    "doc_id": "KB-00149",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7304 Profile: Certified organic producer in Asia. Capacity: 112 tons/month. Lead time: 6 days. Reliability rating: 4.7/5. Specialization: cucumbers.",
+    "last_updated": "2025-09-07"
+  },
+  {
+    "doc_id": "KB-00150",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10000 - North America Region: Specializes in peaches. Quality score: 85/100. Average delivery time: 7 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-09"
+  },
+  {
+    "doc_id": "KB-00151",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7798 Performance: On-time delivery rate 97%. Quality rejection rate 1.1%. Serves Asia. Primary products: kale. Contract renewal: 2025-12-04.",
+    "last_updated": "2025-08-07"
+  },
+  {
+    "doc_id": "KB-00152",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8384 - North America Region: Specializes in asparagus. Quality score: 96/100. Average delivery time: 8 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-08-08"
+  },
+  {
+    "doc_id": "KB-00153",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10507 Performance: On-time delivery rate 87%. Quality rejection rate 1.3%. Serves Asia. Primary products: blueberries. Contract renewal: 2025-12-06.",
+    "last_updated": "2025-09-03"
+  },
+  {
+    "doc_id": "KB-00154",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12669 Performance: On-time delivery rate 98%. Quality rejection rate 0.6%. Serves Asia. Primary products: kale. Contract renewal: 2026-06-03.",
+    "last_updated": "2025-10-21"
+  },
+  {
+    "doc_id": "KB-00155",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10121 Profile: Certified organic producer in Europe. Capacity: 68 tons/month. Lead time: 5 days. Reliability rating: 3.9/5. Specialization: peaches.",
+    "last_updated": "2025-11-01"
+  },
+  {
+    "doc_id": "KB-00156",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11726 - North America Region: Specializes in raspberries. Quality score: 72/100. Average delivery time: 6 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00157",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6050 Profile: Certified organic producer in North America. Capacity: 317 tons/month. Lead time: 6 days. Reliability rating: 4.6/5. Specialization: tomatoes.",
+    "last_updated": "2025-08-07"
+  },
+  {
+    "doc_id": "KB-00158",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12944 - North America Region: Specializes in limes. Quality score: 81/100. Average delivery time: 10 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-21"
+  },
+  {
+    "doc_id": "KB-00159",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11916 Performance: On-time delivery rate 89%. Quality rejection rate 2.7%. Serves Europe. Primary products: grapes. Contract renewal: 2026-03-26.",
+    "last_updated": "2025-09-27"
+  },
+  {
+    "doc_id": "KB-00160",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9361 Performance: On-time delivery rate 81%. Quality rejection rate 2.0%. Serves Europe. Primary products: avocados. Contract renewal: 2025-12-14.",
+    "last_updated": "2025-08-05"
+  },
+  {
+    "doc_id": "KB-00161",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12846 Performance: On-time delivery rate 85%. Quality rejection rate 1.9%. Serves Asia. Primary products: oranges. Contract renewal: 2025-12-16.",
+    "last_updated": "2025-09-07"
+  },
+  {
+    "doc_id": "KB-00162",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9854 - North America Region: Specializes in avocados. Quality score: 81/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-23"
+  },
+  {
+    "doc_id": "KB-00163",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10075 Profile: Certified organic producer in Europe. Capacity: 81 tons/month. Lead time: 9 days. Reliability rating: 4.9/5. Specialization: pineapples.",
+    "last_updated": "2025-08-05"
+  },
+  {
+    "doc_id": "KB-00164",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11411 - Asia Region: Specializes in fresh strawberries. Quality score: 93/100. Average delivery time: 2 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-25"
+  },
+  {
+    "doc_id": "KB-00165",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8290 Performance: On-time delivery rate 94%. Quality rejection rate 4.0%. Serves Asia. Primary products: garlic. Contract renewal: 2026-06-16.",
+    "last_updated": "2025-09-08"
+  },
+  {
+    "doc_id": "KB-00166",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10072 Profile: Certified organic producer in Asia. Capacity: 148 tons/month. Lead time: 9 days. Reliability rating: 3.7/5. Specialization: avocados.",
+    "last_updated": "2025-08-18"
+  },
+  {
+    "doc_id": "KB-00167",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12408 - North America Region: Specializes in bell peppers. Quality score: 97/100. Average delivery time: 6 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-15"
+  },
+  {
+    "doc_id": "KB-00168",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5495 - Asia Region: Specializes in mangoes. Quality score: 92/100. Average delivery time: 10 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-14"
+  },
+  {
+    "doc_id": "KB-00169",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7528 Performance: On-time delivery rate 75%. Quality rejection rate 2.8%. Serves North America. Primary products: avocados. Contract renewal: 2025-12-31.",
+    "last_updated": "2025-08-29"
+  },
+  {
+    "doc_id": "KB-00170",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12034 Profile: Certified organic producer in Asia. Capacity: 153 tons/month. Lead time: 5 days. Reliability rating: 4.7/5. Specialization: spinach.",
+    "last_updated": "2025-08-08"
+  },
+  {
+    "doc_id": "KB-00171",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10691 Performance: On-time delivery rate 94%. Quality rejection rate 1.8%. Serves North America. Primary products: kale. Contract renewal: 2026-07-22.",
+    "last_updated": "2025-08-30"
+  },
+  {
+    "doc_id": "KB-00172",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12536 - Asia Region: Specializes in lemons. Quality score: 79/100. Average delivery time: 5 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-06"
+  },
+  {
+    "doc_id": "KB-00173",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6509 Performance: On-time delivery rate 86%. Quality rejection rate 0.6%. Serves Asia. Primary products: blueberries. Contract renewal: 2026-07-15.",
+    "last_updated": "2025-08-13"
+  },
+  {
+    "doc_id": "KB-00174",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12476 Profile: Certified organic producer in Europe. Capacity: 162 tons/month. Lead time: 5 days. Reliability rating: 4.8/5. Specialization: fresh strawberries.",
+    "last_updated": "2025-08-23"
+  },
+  {
+    "doc_id": "KB-00175",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6462 - Asia Region: Specializes in organic apples. Quality score: 76/100. Average delivery time: 6 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-19"
+  },
+  {
+    "doc_id": "KB-00176",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7499 - Europe Region: Specializes in oranges. Quality score: 88/100. Average delivery time: 7 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00177",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6183 - Asia Region: Specializes in peaches. Quality score: 77/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-27"
+  },
+  {
+    "doc_id": "KB-00178",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9811 Profile: Certified organic producer in Asia. Capacity: 372 tons/month. Lead time: 4 days. Reliability rating: 4.7/5. Specialization: cherries.",
+    "last_updated": "2025-10-06"
+  },
+  {
+    "doc_id": "KB-00179",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5666 Profile: Certified organic producer in Europe. Capacity: 380 tons/month. Lead time: 4 days. Reliability rating: 4.6/5. Specialization: peaches.",
+    "last_updated": "2025-08-27"
+  },
+  {
+    "doc_id": "KB-00180",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6466 Performance: On-time delivery rate 97%. Quality rejection rate 2.7%. Serves Europe. Primary products: watermelons. Contract renewal: 2026-09-25.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "doc_id": "KB-00181",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10322 Profile: Certified organic producer in Asia. Capacity: 252 tons/month. Lead time: 5 days. Reliability rating: 3.8/5. Specialization: bananas.",
+    "last_updated": "2025-08-20"
+  },
+  {
+    "doc_id": "KB-00182",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12663 - Europe Region: Specializes in grapes. Quality score: 70/100. Average delivery time: 4 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-03"
+  },
+  {
+    "doc_id": "KB-00183",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10088 Profile: Certified organic producer in Europe. Capacity: 461 tons/month. Lead time: 9 days. Reliability rating: 4.2/5. Specialization: spinach.",
+    "last_updated": "2025-10-29"
+  },
+  {
+    "doc_id": "KB-00184",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8618 - Asia Region: Specializes in grapes. Quality score: 69/100. Average delivery time: 7 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-27"
+  },
+  {
+    "doc_id": "KB-00185",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5806 - Asia Region: Specializes in tomatoes. Quality score: 88/100. Average delivery time: 2 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-08-06"
+  },
+  {
+    "doc_id": "KB-00186",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6561 Performance: On-time delivery rate 83%. Quality rejection rate 0.5%. Serves North America. Primary products: garlic. Contract renewal: 2026-05-28.",
+    "last_updated": "2025-09-11"
+  },
+  {
+    "doc_id": "KB-00187",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11207 Profile: Certified organic producer in North America. Capacity: 493 tons/month. Lead time: 10 days. Reliability rating: 4.1/5. Specialization: organic apples.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00188",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9225 - North America Region: Specializes in peaches. Quality score: 94/100. Average delivery time: 9 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-06"
+  },
+  {
+    "doc_id": "KB-00189",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8686 Performance: On-time delivery rate 93%. Quality rejection rate 4.4%. Serves North America. Primary products: organic apples. Contract renewal: 2025-12-06.",
+    "last_updated": "2025-08-09"
+  },
+  {
+    "doc_id": "KB-00190",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7783 Performance: On-time delivery rate 99%. Quality rejection rate 4.0%. Serves Asia. Primary products: spinach. Contract renewal: 2026-09-28.",
+    "last_updated": "2025-08-21"
+  },
+  {
+    "doc_id": "KB-00191",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12554 - Asia Region: Specializes in bell peppers. Quality score: 86/100. Average delivery time: 8 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00192",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7693 - North America Region: Specializes in kale. Quality score: 84/100. Average delivery time: 3 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-29"
+  },
+  {
+    "doc_id": "KB-00193",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6630 - Asia Region: Specializes in raspberries. Quality score: 83/100. Average delivery time: 5 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-08-27"
+  },
+  {
+    "doc_id": "KB-00194",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6407 - Europe Region: Specializes in cherries. Quality score: 91/100. Average delivery time: 8 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-13"
+  },
+  {
+    "doc_id": "KB-00195",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6064 - Asia Region: Specializes in mangoes. Quality score: 92/100. Average delivery time: 9 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-27"
+  },
+  {
+    "doc_id": "KB-00196",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5060 - Asia Region: Specializes in kale. Quality score: 69/100. Average delivery time: 8 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00197",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9719 Performance: On-time delivery rate 95%. Quality rejection rate 4.5%. Serves Asia. Primary products: cantaloupe. Contract renewal: 2026-05-03.",
+    "last_updated": "2025-08-15"
+  },
+  {
+    "doc_id": "KB-00198",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8400 - Asia Region: Specializes in cucumbers. Quality score: 92/100. Average delivery time: 9 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-08-04"
+  },
+  {
+    "doc_id": "KB-00199",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6963 - Asia Region: Specializes in grapes. Quality score: 83/100. Average delivery time: 3 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-15"
+  },
+  {
+    "doc_id": "KB-00200",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11188 - Asia Region: Specializes in carrots. Quality score: 85/100. Average delivery time: 8 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-10-23"
+  },
+  {
+    "doc_id": "KB-00201",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10689 Profile: Certified organic producer in North America. Capacity: 488 tons/month. Lead time: 8 days. Reliability rating: 3.8/5. Specialization: cantaloupe.",
+    "last_updated": "2025-09-30"
+  },
+  {
+    "doc_id": "KB-00202",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10808 - Asia Region: Specializes in avocados. Quality score: 94/100. Average delivery time: 9 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00203",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11894 Performance: On-time delivery rate 80%. Quality rejection rate 1.8%. Serves Asia. Primary products: cucumbers. Contract renewal: 2026-02-26.",
+    "last_updated": "2025-08-08"
+  },
+  {
+    "doc_id": "KB-00204",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10549 - Europe Region: Specializes in bell peppers. Quality score: 93/100. Average delivery time: 7 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-06"
+  },
+  {
+    "doc_id": "KB-00205",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5391 Profile: Certified organic producer in North America. Capacity: 277 tons/month. Lead time: 3 days. Reliability rating: 3.6/5. Specialization: peaches.",
+    "last_updated": "2025-09-14"
+  },
+  {
+    "doc_id": "KB-00206",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12608 - Asia Region: Specializes in blueberries. Quality score: 80/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-06"
+  },
+  {
+    "doc_id": "KB-00207",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5517 Profile: Certified organic producer in Asia. Capacity: 262 tons/month. Lead time: 4 days. Reliability rating: 4.3/5. Specialization: asparagus.",
+    "last_updated": "2025-08-22"
+  },
+  {
+    "doc_id": "KB-00208",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6552 Profile: Certified organic producer in North America. Capacity: 104 tons/month. Lead time: 8 days. Reliability rating: 4.0/5. Specialization: bananas.",
+    "last_updated": "2025-09-11"
+  },
+  {
+    "doc_id": "KB-00209",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7590 Profile: Certified organic producer in Asia. Capacity: 467 tons/month. Lead time: 9 days. Reliability rating: 3.9/5. Specialization: raspberries.",
+    "last_updated": "2025-10-27"
+  },
+  {
+    "doc_id": "KB-00210",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12253 - Asia Region: Specializes in spinach. Quality score: 84/100. Average delivery time: 9 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-30"
+  },
+  {
+    "doc_id": "KB-00211",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9914 - Europe Region: Specializes in lemons. Quality score: 89/100. Average delivery time: 4 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00212",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5144 Performance: On-time delivery rate 91%. Quality rejection rate 3.4%. Serves North America. Primary products: onions. Contract renewal: 2025-12-08.",
+    "last_updated": "2025-10-30"
+  },
+  {
+    "doc_id": "KB-00213",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11217 Profile: Certified organic producer in Asia. Capacity: 90 tons/month. Lead time: 8 days. Reliability rating: 3.6/5. Specialization: mangoes.",
+    "last_updated": "2025-09-25"
+  },
+  {
+    "doc_id": "KB-00214",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6242 - Europe Region: Specializes in bananas. Quality score: 67/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-27"
+  },
+  {
+    "doc_id": "KB-00215",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10272 Performance: On-time delivery rate 99%. Quality rejection rate 0.6%. Serves Asia. Primary products: carrots. Contract renewal: 2026-05-26.",
+    "last_updated": "2025-10-06"
+  },
+  {
+    "doc_id": "KB-00216",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5442 Profile: Certified organic producer in North America. Capacity: 276 tons/month. Lead time: 8 days. Reliability rating: 4.4/5. Specialization: oranges.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00217",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5426 - North America Region: Specializes in bell peppers. Quality score: 78/100. Average delivery time: 4 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-29"
+  },
+  {
+    "doc_id": "KB-00218",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8491 - North America Region: Specializes in kale. Quality score: 84/100. Average delivery time: 4 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-09-26"
+  },
+  {
+    "doc_id": "KB-00219",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8672 Profile: Certified organic producer in North America. Capacity: 234 tons/month. Lead time: 9 days. Reliability rating: 4.1/5. Specialization: bananas.",
+    "last_updated": "2025-09-06"
+  },
+  {
+    "doc_id": "KB-00220",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9139 Performance: On-time delivery rate 90%. Quality rejection rate 0.6%. Serves North America. Primary products: cantaloupe. Contract renewal: 2026-01-13.",
+    "last_updated": "2025-08-17"
+  },
+  {
+    "doc_id": "KB-00221",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6251 Profile: Certified organic producer in North America. Capacity: 282 tons/month. Lead time: 6 days. Reliability rating: 3.9/5. Specialization: cantaloupe.",
+    "last_updated": "2025-10-23"
+  },
+  {
+    "doc_id": "KB-00222",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6119 Performance: On-time delivery rate 81%. Quality rejection rate 0.5%. Serves North America. Primary products: broccoli. Contract renewal: 2026-06-11.",
+    "last_updated": "2025-09-11"
+  },
+  {
+    "doc_id": "KB-00223",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12702 Performance: On-time delivery rate 90%. Quality rejection rate 1.9%. Serves Europe. Primary products: cantaloupe. Contract renewal: 2025-12-21.",
+    "last_updated": "2025-09-13"
+  },
+  {
+    "doc_id": "KB-00224",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6330 Profile: Certified organic producer in Asia. Capacity: 419 tons/month. Lead time: 6 days. Reliability rating: 4.0/5. Specialization: pineapples.",
+    "last_updated": "2025-08-04"
+  },
+  {
+    "doc_id": "KB-00225",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10332 - Europe Region: Specializes in spinach. Quality score: 80/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-29"
+  },
+  {
+    "doc_id": "KB-00226",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8731 Profile: Certified organic producer in North America. Capacity: 389 tons/month. Lead time: 5 days. Reliability rating: 4.8/5. Specialization: bell peppers.",
+    "last_updated": "2025-10-21"
+  },
+  {
+    "doc_id": "KB-00227",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10829 Profile: Certified organic producer in Europe. Capacity: 134 tons/month. Lead time: 10 days. Reliability rating: 4.7/5. Specialization: raspberries.",
+    "last_updated": "2025-08-29"
+  },
+  {
+    "doc_id": "KB-00228",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10394 Profile: Certified organic producer in Europe. Capacity: 422 tons/month. Lead time: 8 days. Reliability rating: 4.8/5. Specialization: onions.",
+    "last_updated": "2025-10-14"
+  },
+  {
+    "doc_id": "KB-00229",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11133 Performance: On-time delivery rate 75%. Quality rejection rate 4.9%. Serves Asia. Primary products: cantaloupe. Contract renewal: 2026-01-20.",
+    "last_updated": "2025-08-04"
+  },
+  {
+    "doc_id": "KB-00230",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9300 Performance: On-time delivery rate 80%. Quality rejection rate 1.3%. Serves Europe. Primary products: lemons. Contract renewal: 2026-03-13.",
+    "last_updated": "2025-10-09"
+  },
+  {
+    "doc_id": "KB-00231",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12769 Profile: Certified organic producer in Asia. Capacity: 143 tons/month. Lead time: 4 days. Reliability rating: 4.7/5. Specialization: kale.",
+    "last_updated": "2025-09-10"
+  },
+  {
+    "doc_id": "KB-00232",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10135 Performance: On-time delivery rate 84%. Quality rejection rate 0.9%. Serves North America. Primary products: lettuce. Contract renewal: 2026-05-26.",
+    "last_updated": "2025-08-19"
+  },
+  {
+    "doc_id": "KB-00233",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8914 - Europe Region: Specializes in limes. Quality score: 71/100. Average delivery time: 2 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-10-05"
+  },
+  {
+    "doc_id": "KB-00234",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11486 Profile: Certified organic producer in Asia. Capacity: 222 tons/month. Lead time: 6 days. Reliability rating: 4.4/5. Specialization: raspberries.",
+    "last_updated": "2025-08-06"
+  },
+  {
+    "doc_id": "KB-00235",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7582 Performance: On-time delivery rate 94%. Quality rejection rate 0.8%. Serves Asia. Primary products: blueberries. Contract renewal: 2026-01-22.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00236",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8291 Profile: Certified organic producer in North America. Capacity: 321 tons/month. Lead time: 2 days. Reliability rating: 3.9/5. Specialization: pears.",
+    "last_updated": "2025-09-05"
+  },
+  {
+    "doc_id": "KB-00237",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10621 Profile: Certified organic producer in North America. Capacity: 51 tons/month. Lead time: 10 days. Reliability rating: 5.0/5. Specialization: cherries.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "doc_id": "KB-00238",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12155 Performance: On-time delivery rate 82%. Quality rejection rate 3.2%. Serves Asia. Primary products: peaches. Contract renewal: 2026-01-12.",
+    "last_updated": "2025-09-08"
+  },
+  {
+    "doc_id": "KB-00239",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10393 Performance: On-time delivery rate 84%. Quality rejection rate 3.2%. Serves North America. Primary products: asparagus. Contract renewal: 2026-08-25.",
+    "last_updated": "2025-10-16"
+  },
+  {
+    "doc_id": "KB-00240",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11527 Performance: On-time delivery rate 89%. Quality rejection rate 4.8%. Serves Asia. Primary products: mangoes. Contract renewal: 2026-04-04.",
+    "last_updated": "2025-10-05"
+  },
+  {
+    "doc_id": "KB-00241",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11170 - North America Region: Specializes in watermelons. Quality score: 70/100. Average delivery time: 3 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-27"
+  },
+  {
+    "doc_id": "KB-00242",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10891 - Europe Region: Specializes in limes. Quality score: 95/100. Average delivery time: 3 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-08-05"
+  },
+  {
+    "doc_id": "KB-00243",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12142 Performance: On-time delivery rate 87%. Quality rejection rate 4.6%. Serves Asia. Primary products: onions. Contract renewal: 2026-06-15.",
+    "last_updated": "2025-10-03"
+  },
+  {
+    "doc_id": "KB-00244",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7122 - Asia Region: Specializes in mangoes. Quality score: 70/100. Average delivery time: 3 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-10-16"
+  },
+  {
+    "doc_id": "KB-00245",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12815 Performance: On-time delivery rate 76%. Quality rejection rate 3.2%. Serves Europe. Primary products: onions. Contract renewal: 2026-07-06.",
+    "last_updated": "2025-09-16"
+  },
+  {
+    "doc_id": "KB-00246",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12650 Profile: Certified organic producer in Asia. Capacity: 486 tons/month. Lead time: 3 days. Reliability rating: 4.2/5. Specialization: carrots.",
+    "last_updated": "2025-10-04"
+  },
+  {
+    "doc_id": "KB-00247",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10570 Performance: On-time delivery rate 98%. Quality rejection rate 3.5%. Serves Europe. Primary products: bell peppers. Contract renewal: 2025-12-19.",
+    "last_updated": "2025-09-23"
+  },
+  {
+    "doc_id": "KB-00248",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10641 Profile: Certified organic producer in Asia. Capacity: 242 tons/month. Lead time: 5 days. Reliability rating: 3.6/5. Specialization: grapes.",
+    "last_updated": "2025-10-06"
+  },
+  {
+    "doc_id": "KB-00249",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12654 Profile: Certified organic producer in Asia. Capacity: 203 tons/month. Lead time: 4 days. Reliability rating: 5.0/5. Specialization: watermelons.",
+    "last_updated": "2025-08-23"
+  },
+  {
+    "doc_id": "KB-00250",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7764 Performance: On-time delivery rate 99%. Quality rejection rate 2.3%. Serves Europe. Primary products: limes. Contract renewal: 2026-04-25.",
+    "last_updated": "2025-08-04"
+  },
+  {
+    "doc_id": "KB-00251",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10743 - North America Region: Specializes in raspberries. Quality score: 71/100. Average delivery time: 4 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00252",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6340 Profile: Certified organic producer in North America. Capacity: 157 tons/month. Lead time: 9 days. Reliability rating: 3.8/5. Specialization: bell peppers.",
+    "last_updated": "2025-09-16"
+  },
+  {
+    "doc_id": "KB-00253",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12013 Profile: Certified organic producer in North America. Capacity: 136 tons/month. Lead time: 8 days. Reliability rating: 4.9/5. Specialization: lettuce.",
+    "last_updated": "2025-09-02"
+  },
+  {
+    "doc_id": "KB-00254",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12741 - Asia Region: Specializes in lettuce. Quality score: 97/100. Average delivery time: 7 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-10-28"
+  },
+  {
+    "doc_id": "KB-00255",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6973 - Europe Region: Specializes in broccoli. Quality score: 84/100. Average delivery time: 4 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-08-10"
+  },
+  {
+    "doc_id": "KB-00256",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7254 Performance: On-time delivery rate 75%. Quality rejection rate 1.0%. Serves North America. Primary products: lemons. Contract renewal: 2026-10-26.",
+    "last_updated": "2025-10-30"
+  },
+  {
+    "doc_id": "KB-00257",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9693 Profile: Certified organic producer in North America. Capacity: 297 tons/month. Lead time: 3 days. Reliability rating: 5.0/5. Specialization: broccoli.",
+    "last_updated": "2025-08-20"
+  },
+  {
+    "doc_id": "KB-00258",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5814 - Europe Region: Specializes in tomatoes. Quality score: 76/100. Average delivery time: 8 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-10-24"
+  },
+  {
+    "doc_id": "KB-00259",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11857 Profile: Certified organic producer in North America. Capacity: 142 tons/month. Lead time: 5 days. Reliability rating: 4.8/5. Specialization: potatoes.",
+    "last_updated": "2025-08-22"
+  },
+  {
+    "doc_id": "KB-00260",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11557 Performance: On-time delivery rate 93%. Quality rejection rate 1.4%. Serves Europe. Primary products: lettuce. Contract renewal: 2026-04-12.",
+    "last_updated": "2025-10-22"
+  },
+  {
+    "doc_id": "KB-00261",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9146 - Europe Region: Specializes in blueberries. Quality score: 75/100. Average delivery time: 8 days. Known issues: excellent track record. Preferred for large volume orders.",
+    "last_updated": "2025-08-09"
+  },
+  {
+    "doc_id": "KB-00262",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-8644 Profile: Certified organic producer in Asia. Capacity: 230 tons/month. Lead time: 7 days. Reliability rating: 4.4/5. Specialization: onions.",
+    "last_updated": "2025-08-05"
+  },
+  {
+    "doc_id": "KB-00263",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10428 - Asia Region: Specializes in oranges. Quality score: 67/100. Average delivery time: 5 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-08-18"
+  },
+  {
+    "doc_id": "KB-00264",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7272 Performance: On-time delivery rate 92%. Quality rejection rate 1.6%. Serves Asia. Primary products: cantaloupe. Contract renewal: 2026-02-23.",
+    "last_updated": "2025-09-04"
+  },
+  {
+    "doc_id": "KB-00265",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12739 - Europe Region: Specializes in limes. Quality score: 92/100. Average delivery time: 4 days. Known issues: packaging needs improvement. Preferred for large volume orders.",
+    "last_updated": "2025-09-15"
+  },
+  {
+    "doc_id": "KB-00266",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10384 Profile: Certified organic producer in North America. Capacity: 211 tons/month. Lead time: 4 days. Reliability rating: 5.0/5. Specialization: pears.",
+    "last_updated": "2025-10-29"
+  },
+  {
+    "doc_id": "KB-00267",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-7027 Profile: Certified organic producer in Asia. Capacity: 258 tons/month. Lead time: 10 days. Reliability rating: 3.6/5. Specialization: grapes.",
+    "last_updated": "2025-09-16"
+  },
+  {
+    "doc_id": "KB-00268",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-11373 Performance: On-time delivery rate 75%. Quality rejection rate 0.9%. Serves Europe. Primary products: bell peppers. Contract renewal: 2026-01-24.",
+    "last_updated": "2025-10-10"
+  },
+  {
+    "doc_id": "KB-00269",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10966 Profile: Certified organic producer in Europe. Capacity: 342 tons/month. Lead time: 3 days. Reliability rating: 4.8/5. Specialization: onions.",
+    "last_updated": "2025-08-16"
+  },
+  {
+    "doc_id": "KB-00270",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-12344 - Asia Region: Specializes in cucumbers. Quality score: 85/100. Average delivery time: 8 days. Known issues: seasonal quality variation. Preferred for large volume orders.",
+    "last_updated": "2025-09-01"
+  },
+  {
+    "doc_id": "KB-00271",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-6045 Profile: Certified organic producer in Europe. Capacity: 243 tons/month. Lead time: 4 days. Reliability rating: 4.4/5. Specialization: organic apples.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "doc_id": "KB-00272",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-10795 Performance: On-time delivery rate 80%. Quality rejection rate 2.5%. Serves Asia. Primary products: limes. Contract renewal: 2026-08-16.",
+    "last_updated": "2025-09-27"
+  },
+  {
+    "doc_id": "KB-00273",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-9264 Performance: On-time delivery rate 95%. Quality rejection rate 4.4%. Serves North America. Primary products: asparagus. Contract renewal: 2026-05-11.",
+    "last_updated": "2025-08-12"
+  },
+  {
+    "doc_id": "KB-00274",
+    "doc_type": "supplier_info",
+    "category": "Supplier",
+    "content": "Supplier SUP-5628 - North America Region: Specializes in oranges. Quality score: 70/100. Average delivery time: 4 days. Known issues: occasional delays. Preferred for large volume orders.",
+    "last_updated": "2025-09-08"
+  }
+]
