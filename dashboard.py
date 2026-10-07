@@ -14,6 +14,7 @@ import streamlit as st
 import streamlit as st
 import pandas as pd
 
+
 # Load environment variables
 load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 DATA_PATH = Path(__file__).resolve().parent / "complaints_train.csv"
