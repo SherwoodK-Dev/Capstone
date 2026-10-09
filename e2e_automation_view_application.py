@@ -39,8 +39,6 @@ except ModuleNotFoundError:
     )
     from state import InquiryState
 
-# Graph state definition
-# @dataclass
 class State(TypedDict):
     complaint_prompt: str
     complaint_severity_msg: str
@@ -66,30 +64,30 @@ def build_workflow() -> StateGraph:
     chain = workflow.compile()
     return chain
 
-def run_streamlit_app():
-    st.title("Complaint Entry")
-    st.write("Please fill out a complaint if you have one.")
-
-    complaint_prompt = st.text_area("Enter your complaint", height=150)
-
-    if st.button("Generate"):
-        state = State(complaint_prompt=complaint_prompt)
-        if not complaint_prompt.strip():
-            st.warning("Please enter a complaint first.")
-        else:
-            data = {"complaint_prompt": complaint_prompt}
-            response = requests.post("http://127.0.0.1:8000/predict/", json=data)
-            response.raise_for_status()
-            payload = response.json()
-            workflow = build_workflow()
-            result = workflow.invoke(state)
-            st.subheader("Complaint Category:")
-            st.write(payload["prediction"])
-            st.subheader("Complaint Analysis:")
-            st.write(result["complaint_severity_msg"])
-            st.subheader("Escalation Decision:")
-            st.write(result["escalation_decision"])
+def visualize_graph():
+    """Generates a visualization of the workflow graph."""
+    graph = nx.DiGraph()
+    edges = [
+        ("START", "analyzer_agent"),
+        ("analyzer_agent", "investigate_agent"),
+        ("investigate_agent", "planner_agent"),
+        ("planner_agent", "communicator_agent"),
+        ("communicator_agent", "escalation_agent"),
+        ("escalation_agent", "END")
+    ]
+    graph.add_edges_from(edges)
+    
+    plt.figure(figsize=(8, 5))
+    nx.draw(graph, with_labels=True, node_color='lightblue', edge_color='gray', node_size=2000, font_size=10, font_weight='bold')
+    
+    plt.savefig("workflowE2e.png")
+    output_path = Path(__file__).resolve().parent / "workflowE2e.png"
+    plt.savefig(output_path)
+    plt.close()
+    return str(output_path)
 
 
 if __name__ == "__main__":
-    run_streamlit_app()
+    build_workflow()
+    image_path = visualize_graph()
+    st.image(image_path, caption="E2E Workflow")
