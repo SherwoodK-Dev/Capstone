@@ -29,9 +29,6 @@ df_complaints = pd.read_csv(DATA_PATH)
 df_complaints['timestamp_update'] = pd.to_datetime(df_complaints['timestamp'], format='mixed')
 st.title("Complaint Dashboard")
 
-with open("model_classification_report.txt", "r") as f:
-    st.code(f.read())
-
 st.subheader("Summary Statistics")
 col1, col2, col3, col4, col5 = st.columns(5)
 col1.metric("Total Rows", len(df_complaints))
@@ -146,5 +143,7 @@ with tab4:
     st.markdown("- Pricing Error: The least amount is at 8pm and the most occurs at 6am. If it's 6 am and you are starting your day you might see and e-mail or alert saying something about a price issue from you bank. If it's 8pm most people are busying with dinner, family time, etc and don't have the time go through pricing issues to make a complaint. ")
     st.markdown("- Service Complaint: The lowest number occurs between 12pm and 2pm.The most occur at 11am.  ")
     st.markdown("- Quality Issue: The lowest number occurs between 4pm. The highest occurs at 3pm. ")
+    
+
 
 

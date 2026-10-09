@@ -107,10 +107,14 @@ def train_and_prepare_model():
     training_accuracy = accuracy_score(y_train_smote, y_pred_train)
     testing_accuracy = accuracy_score(y_test, predictions)
 
-    # print(f"\nTraining Accuracy: {training_accuracy:.4f}")
-    # print(f"Testing Accuracy: {testing_accuracy:.4f}")
-    # print("\nANN Classification Report:")
-    # print(classification_report(y_test, predictions, target_names=label_encoder.classes_))
+    report = classification_report(y_test, predictions, target_names=label_encoder.classes_)
+
+    report_path = Path(__file__).resolve().parent / "model_classification_report.txt"
+    with report_path.open("w", encoding="utf-8") as report_file:
+        report_file.write(f"Training Accuracy: {training_accuracy:.4f}\n")
+        report_file.write(f"Testing Accuracy: {testing_accuracy:.4f}\n\n")
+        report_file.write("\n")
+        report_file.write(report)
 
     joblib.dump(ann_model, 'complaints_model.pkl')
 
