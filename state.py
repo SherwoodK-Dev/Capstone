@@ -5,7 +5,7 @@ from typing import List
 @dataclass
 class InquiryState:
     complaint_prompt: str
-    complaint_severity: str
+    complaint_severity_msg: str
     knowledge_base_response: str = ""
     resolution_plan: str = ""
     customer_response: str = ""
