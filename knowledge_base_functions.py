@@ -33,14 +33,14 @@ def build_knowledge_base(knowledge_base_path):
     }
 
 
-def query_knowledge_base(query_text):
+def get_knowledge_base(query_text):
     knowledge_bundle = build_knowledge_base(KNOWLEDGE_BASE_PATH)
     if not knowledge_bundle["kb_content"]:
         return ""
 
-    k = 2
-    query_embedding = knowledge_bundle["embedding_model"].encode([query_text], show_progress_bar=False).astype("float32")
+    k = 1
+    knowledge_base_embedding = knowledge_bundle["embedding_model"].encode([query_text], show_progress_bar=False).astype("float32")
     k = min(k, len(knowledge_bundle["kb_content"]))
-    distances, indices = knowledge_bundle["index"].search(np.asarray(query_embedding).astype("float32"), k)
+    distances, indices = knowledge_bundle["index"].search(np.asarray(knowledge_base_embedding).astype("float32"), k)
     retrieved = [knowledge_bundle["kb_content"][int(idx)] for idx in indices[0]]
     return "\n".join(retrieved)

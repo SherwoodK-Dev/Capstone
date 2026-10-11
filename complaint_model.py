@@ -18,6 +18,7 @@ from tensorflow.keras.layers import Dense, Dropout, Input
 from tensorflow.keras.models import Sequential
 from imblearn.over_sampling import SMOTE
 from string import punctuation
+from text_preprocessing import preprocess 
 
 model_value = {}
 
@@ -27,26 +28,6 @@ nltk.download("punkt_tab", quiet=True)
 nltk.download("wordnet", quiet=True)
 
 DATA_PATH = Path(__file__).resolve().parent / "complaints_train.csv"
-
-
-def preprocess(complaint_series):
-    stop_words = set(stopwords.words("english"))
-    lemmatizer = WordNetLemmatizer()
-    cleaned = []
-
-    for complaint in complaint_series:
-        text = str(complaint).lower()
-        text = re.sub(r"http\S+", "", text)
-        text = re.sub(r"\d+", "", text)
-        words = word_tokenize(text)
-        cleaned_words = [
-            lemmatizer.lemmatize(word)
-            for word in words
-            if word not in punctuation and word not in stop_words
-        ]
-        cleaned.append(" ".join(cleaned_words))
-
-    return cleaned
 
 
 def create_ann_model(input_dim, num_classes):
@@ -116,7 +97,7 @@ def train_and_prepare_model():
         report_file.write("\n")
         report_file.write(report)
 
-    joblib.dump(ann_model, 'complaints_model.pkl')
+    joblib.dump({"model": ann_model, "scaler": scaler, "label_encoder": label_encoder}, 'complaints_model.pkl')
 
 if __name__ == "__main__":
     train_and_prepare_model()
