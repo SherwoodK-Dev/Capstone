@@ -1,70 +1,46 @@
-# ----workflow.py----
-from langgraph.graph import StateGraph, START, END
 
+from langgraph.graph import StateGraph, START, END
+from typing_extensions import TypedDict
 try:
-    from Demo5.agents import (
-        intake_agent,
-        evaluation_agent,
-        scheduling_agent,
-        crm_update_agent,
+    from agents import (
+        analyzer_agent,
+        investigate_agent,
+        planner_agent,
+        communicator_agent,
+        escalation_agent,
     )
-    from Demo5.state import InquiryState
+    from state import InquiryState
 except ModuleNotFoundError:
     from agents import (
-        intake_agent,
-        evaluation_agent,
-        scheduling_agent,
-        crm_update_agent,
+        analyzer_agent,
+        investigate_agent,
+        planner_agent,
+        communicator_agent,
+        escalation_agent,
     )
     from state import InquiryState
 
-from dataclasses import asdict
-import networkx as nx
-import matplotlib.pyplot as plt
+class State(TypedDict):
+    complaint_prompt: str
+    complaint_severity_msg: str
+    knowledge_base_response: str = ""
+    resolution_plan: str = ""
+    customer_response: str = ""
+    escalation_decision: str = ""
 
-def construct_graph():
-    """Builds the state graph for inquiry processing."""
-    workflow = StateGraph(InquiryState)  # ✅ Use InquiryState
-
-    # ✅ Add agent nodes
-    workflow.add_node("intake", intake_agent)
-    workflow.add_node("evaluation", evaluation_agent)
-    workflow.add_node("scheduling", scheduling_agent)
-    workflow.add_node("crm_update", crm_update_agent)
-
-    # ✅ Add an "end" node as a dummy function
-    workflow.add_node("end", lambda state: asdict(state))  # No processing, just a pass-through
-
-    # ✅ Define the workflow structure
-    workflow.set_entry_point("intake")  
-    workflow.add_edge("intake", "evaluation")
-    workflow.add_edge("evaluation", "scheduling")
-    workflow.add_edge("scheduling", "crm_update")
-    
-    # ✅ Connect "crm_update" to the "end" node
-    workflow.add_edge("crm_update", "end")
-
-    # ✅ Mark "end" as the final step
-    workflow.set_finish_point("end")  
-
-    return workflow.compile()
-
-
-
-def visualize_graph():
-    """Generates a visualization of the workflow graph."""
-    graph = nx.DiGraph()
-    edges = [
-        ("START", "intake"),
-        ("intake", "evaluation"),
-        ("evaluation", "scheduling"),
-        ("scheduling", "crm_update"),  # ✅ Last node (no outgoing edges)
-        ("crm_update", "END")  # Connect the last node to the END node
-    ]
-    graph.add_edges_from(edges)
-    
-    plt.figure(figsize=(8, 5))
-    nx.draw(graph, with_labels=True, node_color='lightblue', edge_color='gray', node_size=2000, font_size=10, font_weight='bold')
-    plt.savefig("workflow5.png")
-    
-    return "workflow5.png"
+def build_workflow() -> StateGraph:
+    workflow = StateGraph(State)
+    workflow.add_node("analyzer_agent", analyzer_agent)
+    workflow.add_node("investigate_agent", investigate_agent)
+    workflow.add_node("planner_agent", planner_agent)
+    workflow.add_node("communicator_agent", communicator_agent)
+    workflow.add_node("escalation_agent", escalation_agent)
+    # Add edges to connect the nodes (steps in order)
+    workflow.add_edge(START, "analyzer_agent")
+    workflow.add_edge("analyzer_agent", "investigate_agent")
+    workflow.add_edge("investigate_agent", "planner_agent")
+    workflow.add_edge("planner_agent", "communicator_agent")
+    workflow.add_edge("communicator_agent", "escalation_agent")
+    workflow.add_edge("escalation_agent", END)
+    chain = workflow.compile()
+    return chain

@@ -67,7 +67,7 @@ def train_and_prepare_model():
     y = df["Category_Encoded"].values
 
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
+        X, y, test_size=0.2, random_state=42
     )
 
     scaler = StandardScaler()
@@ -89,7 +89,7 @@ def train_and_prepare_model():
     testing_accuracy = accuracy_score(y_test, predictions)
 
     report = classification_report(y_test, predictions, target_names=label_encoder.classes_)
-
+    print(classification_report(y_test, predictions, target_names=label_encoder.classes_))
     report_path = Path(__file__).resolve().parent / "model_classification_report.txt"
     with report_path.open("w", encoding="utf-8") as report_file:
         report_file.write(f"Training Accuracy: {training_accuracy:.4f}\n")
