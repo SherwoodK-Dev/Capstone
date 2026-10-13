@@ -62,7 +62,14 @@ def planner_agent(state: InquiryState | Mapping[str, Any]) -> dict:
     """Plans the resolution for the complaint."""
     response = client.chat.completions.create(model=deployment,
         messages=[
-            {"role": "system", "content": "You want to use the information from the knowledge base in " + state["knowledge_base_response"] + " to outline steps to resolve the complaint listed in " + state["complaint_prompt"]}
+            {"role": "system", "content": "You want to use the information from the knowledge base to outline steps to resolve the complaint. "
+            "Base the answer on the knowledge base and the complaint text."},
+            {"role": "user", "content": (
+                "Knowledge base:\n"
+                + state["knowledge_base_response"]
+                + "\n\nComplaint:\n"
+                + state["complaint_prompt"]
+            )}
         ])
     resolution_plan = response.choices[0].message.content.strip()
     result = asdict(state) if is_dataclass(state) else dict(state)
@@ -73,8 +80,13 @@ def communicator_agent(state: InquiryState | Mapping[str, Any]) -> dict:
     """Communicates with the customer about the complaint."""
     response = client.chat.completions.create(model=deployment,
         messages=[
-            {"role": "system", "content": "You want to create a customer ready response based on the resolution steps outlined here: " + state["resolution_plan"] + 
-             ". Start the response with 'Dear Customer,' and end with 'Sincerely, AgriChain'."}
+            {"role": "system", "content": (
+                "You want to create a customer-ready response based on the resolution steps provided. "
+                "Start the response with 'Dear Customer,' and end with 'Sincerely, AgriChain'."
+            )},
+            {"role": "user", "content": (
+                "Resolution steps:\n" + state["resolution_plan"]
+            )}
         ])
     customer_response = response.choices[0].message.content.strip()
     result = asdict(state) if is_dataclass(state) else dict(state)
@@ -85,8 +97,18 @@ def escalation_agent(state: InquiryState | Mapping[str, Any]) -> dict:
     """Determines if the complaint needs escalation."""
     response = client.chat.completions.create(model=deployment,
         messages=[
-            {"role": "system", "content": "If the value here: " + state["complaint_severity_msg"] + ", is 'High' or 'Critical' or 'Unsure', then the complaint needs to be escalated."
-            " Otherwise, it does not need to be escalated. Respond with either 'Needs Escalation' or 'No Escalation Necessary' and include an a customer ready response that explains why."}
+            {"role": "system", "content": (
+                "Determine whether the complaint requires escalation. "
+                "If the severity is 'High', 'Critical', or 'Unsure', respond with "
+                "'Needs Escalation'. Otherwise respond with 'No Escalation Necessary'. "
+                "Also include a customer-ready explanation of why."
+            )},
+            {"role": "user", "content": (
+                "Complaint severity: "
+                + state["complaint_severity_msg"]
+                + "\n\nComplaint: "
+                + state["complaint_prompt"]
+            )}
         ])
     escalation_decision = response.choices[0].message.content.strip()
     result = asdict(state) if is_dataclass(state) else dict(state)

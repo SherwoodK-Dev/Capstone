@@ -17,17 +17,14 @@ embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 app = FastAPI()
 
-# Define the input data structure using Pydantic
 class InputData(BaseModel):
     complaint_prompt: str
 
-# Define the prediction endpoint
 @app.post("/predict/")
 def predict(data: InputData):
-    # Debugging: print the incoming complaint prompt
+    
     print("Received complaint prompt:", data.complaint_prompt)
-
-    # Check if the complaint prompt is provided
+    
     if not data.complaint_prompt:
         return {"error": "No complaint prompt provided"}
 
